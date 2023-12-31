@@ -24,7 +24,9 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #f4eff0;
+  color: #fff;
+  background-color: rgba(231, 147, 147, 0.8);
+  border-radius: 10px;
 }
 
 .form-container {

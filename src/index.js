@@ -15,7 +15,7 @@ function generateRecipe(event) {
 
   let apiKey = "bb204t34cebbo506a6ab37d911c00dfb";
   let context =
-    "You are a skilled chef in Japan who is passionate about cooking. Your mission is to provide a delightful recipe that aligns with the user's instructions. Make sure to the title bold. Make sure to include detailed instructions in basic HTML and separate each line with a <br />. The user is counting on your culinary expertise!";
+    "You are a skilled chef in Japan who is passionate about cooking. Your mission is to provide a delightful recipe that aligns with the user's instructions. Make sure to the title bold. Make sure to include detailed instructions in basic HTML and make sure to separate each line with a <br />. The user is counting on your culinary expertise!";
   let prompt = `User instructions: Generate a recipe for ${instructionsInput.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
